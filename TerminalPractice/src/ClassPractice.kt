@@ -38,7 +38,33 @@ fun main(args: Array<String>)
         num2
     }
     println("max value is $max")
-    
+    val present = if("jan" in name){
+        println("jan is present")
+        correct
+    }else{
+        println("jan is not present")
+        incorrect
+    }
+    println(present)
+    //kotlin is case sensitive too
+    //array integer
+    val arrint = intArrayOf(1,2,3,4,5,6,7,6,5,4,3,2,1,10)
+    println(arrint[5])
+    for(j in arrint){
+        print(j)
+    }
+    println()
+    //array float
+    val arrfloat  = floatArrayOf(1.1f,2.2f,3.3f,4.4f)
+    println(arrfloat[1])
+    for(i in arrfloat){
+        print(i)
+    }
+    println()
+    //array character
+    val arrcharacter = charArrayOf('a','b','c','d','A','B','C','D')
+    println(arrcharacter)
+
 
 
 
